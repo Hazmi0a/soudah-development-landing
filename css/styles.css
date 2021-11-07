@@ -540,7 +540,7 @@ a {
   }
 
   .navi-links {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 6px;
   }
 
@@ -559,48 +559,61 @@ a {
   .about-program--subtitle {
     font-size: 28px;
     line-height: 32px;
-    margin-top: 16px;
+    margin-top: 20px;
   }
 
   .about-program--info {
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .about-program--terms-title {
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .about-program--cta {
     width: 80%;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .about-program--terms-container {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .process-section {
     margin-top: -15px;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .process--title {
-    font-size: 24px;
+    font-size: 42px;
   }
 
   .process--subtitle {
-    font-size: 20px;
+    font-size: 28px;
+    line-height: 48px;
   }
 
   .process--content {
     margin-top: 0.5rem;
     padding: 0.2rem;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 26px;
+    line-height: 42px;
   }
 
   .vision--content {
-    padding: 0.5rem;
+    padding: 1rem;
+  }
+
+  .vision--content-header {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .vision--content-text {
+    font-size: 26px;
+    line-height: 42px;
   }
 
   .vision--cta {
@@ -609,12 +622,22 @@ a {
 
   .faq {
     background-color: #f5ebe6;
-    padding: 0.5rem;
+    padding: 1rem;
     direction: rtl;
   }
 
   .faq-title {
     text-align: justify;
+  }
+
+  .faq-header {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .faq-text {
+    font-size: 26px;
+    line-height: 42px;
   }
 
   .footer {
@@ -624,7 +647,7 @@ a {
   }
 
   .footer--more-info {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -634,12 +657,5 @@ a {
 
   .footer--image-container {
     gap: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .about-program--cta {
-    width: 90%;
-    font-size: 12px;
   }
 }
