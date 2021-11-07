@@ -553,11 +553,13 @@ a {
   }
 
   .about-program--container {
-    padding: 3rem;
+    padding: 1rem;
   }
 
   .about-program--subtitle {
-    font-size: 24px;
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 16px;
   }
 
   .about-program--info {
@@ -579,6 +581,7 @@ a {
 
   .process-section {
     margin-top: -15px;
+    padding: 0.5rem;
   }
 
   .process--title {
@@ -592,26 +595,30 @@ a {
   .process--content {
     margin-top: 0.5rem;
     padding: 0.2rem;
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
   }
 
   .vision--content {
-    padding: 3rem;
+    padding: 0.5rem;
   }
 
   .vision--cta {
-    margin-left: 3rem;
+    margin-left: 0.5rem;
   }
 
   .faq {
     background-color: #f5ebe6;
-    padding: 3rem;
+    padding: 0.5rem;
     direction: rtl;
   }
 
+  .faq-title {
+    text-align: justify;
+  }
+
   .footer {
-    padding: 1rem;
+    padding: 0.5rem;
     flex-direction: column;
     align-items: center;
   }
@@ -626,7 +633,7 @@ a {
   }
 
   .footer--image-container {
-    gap: 1rem;
+    gap: 0.5rem;
   }
 }
 
