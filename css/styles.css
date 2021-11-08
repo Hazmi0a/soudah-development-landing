@@ -304,7 +304,7 @@ body {
   font-size: 24px;
   color: #321e1e;
   background-color: #82dce6;
-  width: 80%;
+  width: 60%;
   padding: 12px;
   padding-bottom: 16px;
   border-radius: 4px;
@@ -396,6 +396,23 @@ body {
   padding-bottom: 3rem;
   margin-bottom: 3rem;
 }
+
+.vision--title {
+  color: #82dce6;
+  font-size: 42px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.vision--subtitle {
+  color: #82dce6;
+  font-size: 36px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
 .vision--content {
   padding: 3rem;
   padding-right: 18rem;
@@ -405,7 +422,7 @@ body {
 .vision--content-header {
   color: #82dce6;
   font-size: 24px;
-  line-height: 24px;
+  line-height: 32px;
   font-weight: 700;
   text-align: right;
   margin-top: 1rem;
@@ -414,7 +431,7 @@ body {
 
 .vision--content-text {
   color: #f5ebe6;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 32px;
   font-weight: 400;
   text-align: right;
@@ -422,8 +439,8 @@ body {
 
 .vision--content-text-bold {
   color: #f5ebe6;
-  font-size: 20px;
-  line-height: 18px;
+  font-size: 24px;
+  line-height: 42px;
   font-weight: 700;
   text-align: right;
 }
@@ -491,17 +508,24 @@ a {
 .footer {
   background-color: #8c7d78;
   padding: 2rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   direction: rtl;
 }
 
+.footer-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 2rem;
+}
+
 .footer--more-info {
   flex: 1;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 32px;
   text-align: right;
   font-weight: 400;
@@ -510,10 +534,14 @@ a {
 
 .footer--link {
   color: #82dce6;
+  font-size: 24px;
+  line-height: 32px;
   font-weight: 700;
+  text-align: center;
 }
 
 .footer--image-container {
+  flex: 1;
   display: flex;
   gap: 4rem;
   justify-content: flex-end;
@@ -545,45 +573,45 @@ a {
   }
 
   .navigation--logo {
-    height: 3rem;
+    height: 5rem;
   }
 
   .royal-container {
-    padding: 0.6rem;
+    padding: 0.4rem;
   }
 
   .about-program--container {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .about-program--subtitle {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 42px;
     margin-top: 20px;
   }
 
   .about-program--info {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 42px;
   }
 
   .about-program--terms-title {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 42px;
   }
 
   .about-program--cta {
-    width: 80%;
-    font-size: 20px;
+    width: 90%;
+    font-size: 22px;
   }
 
   .about-program--terms-container {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .process-section {
     margin-top: -15px;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .process--title {
@@ -591,71 +619,88 @@ a {
   }
 
   .process--subtitle {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 48px;
+    margin-bottom: 0.5rem;
   }
 
   .process--content {
     margin-top: 0.5rem;
-    padding: 0.2rem;
-    font-size: 26px;
+    padding: 0.1rem;
+    font-size: 24px;
     line-height: 42px;
+    text-align: justify;
   }
 
   .vision--content {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .vision--content-header {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 48px;
   }
 
   .vision--content-text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 42px;
+    text-align: justify;
   }
 
   .vision--cta {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
 
   .faq {
     background-color: #f5ebe6;
-    padding: 1rem;
+    padding: 1.5rem;
     direction: rtl;
   }
 
   .faq-title {
-    text-align: justify;
+    text-align: center;
   }
 
   .faq-header {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: justify;
   }
 
   .faq-text {
     font-size: 26px;
     line-height: 42px;
+    text-align: justify;
   }
 
   .footer {
-    padding: 0.5rem;
+    padding: 1rem;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+
+  .footer-info-container {
+    margin-left: 0;
   }
 
   .footer--more-info {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    margin-left: 0;
+  }
+
+  .footer--link {
+    font-size: 26px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
   }
 
   .footer--image {
-    width: 5rem;
+    width: 8rem;
   }
 
   .footer--image-container {
-    gap: 0.5rem;
+    gap: 2rem;
   }
 }
