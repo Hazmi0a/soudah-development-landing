@@ -1,3 +1,3 @@
 # Download Production Build
 
-### Download the `build.zip` file [here](/blob/main/build.zip).
+### Download the `build.zip` file [here](https://github.com/younes-alturkey/soudah-development-landing/raw/main/build.zip).
