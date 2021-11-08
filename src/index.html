@@ -41,8 +41,8 @@
       type="image/x-icon"
       href="/soudah-development-landing/favicon.ico"
     />
-    <link rel="stylesheet" href="/soudah-development-landing/css/styles.css" />
-    <!-- <link rel="stylesheet" href="/css/styles.css" /> -->
+    <!-- <link rel="stylesheet" href="/soudah-development-landing/css/styles.css" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
     <title>برنامج ابتعاث السودة للتطوير</title>
   </head>
   <body>
@@ -78,10 +78,23 @@
           <li class="navi-links" onclick="openModal();">سجل الآن</li>
         </ul>
 
-        <ul class="navi-container-mobile">
-          <li class="navi-links">
-            <a href="#about-program" class="navi-links">المزيد</a>
-          </li>
+        <ul class="navi-container-mobile dropdown">
+          <div class="">
+            <a onclick="dropdownList();" class="dropbtn">المزيد</a>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#about-program">عن البرنامج</a>
+              <hr />
+              <a href="#about-program">التخصصات المتاحة</a>
+              <hr />
+              <a href="#process-section">مراحل وآلية التقديم</a>
+              <hr />
+              <a href="#vision">عن السودة للتطوير</a>
+              <hr />
+              <a href="#faq">الأسئلة الشائعة</a>
+              <hr />
+              <a onclick="openModal();">سجل الآن</a>
+            </div>
+          </div>
         </ul>
       </nav>
     </header>
@@ -176,8 +189,8 @@
               يتم الفرز الأولي للمتقدمين بشكل آلي من خلال النظام بحيث يتم ترشيح
               المتقدمين في حال استيفائهم الحد الأدنى من متطلبات الترشيح للبرنامج
             </p>
-            <hr class="process--line-break" />
           </div>
+          <hr class="process--line-break" />
 
           <div class="process--content-container">
             <p class="process--title">02</p>
@@ -188,8 +201,8 @@
               مباشرة على سبيل المثال لا الحصر أسئلة صح وخطأ واختيار من متعدد
               بهدف تقييم مدى استعداد المتقدمين والتزامهم تجاه البرنامج
             </p>
-            <hr class="process--line-break" />
           </div>
+          <hr class="process--line-break" />
 
           <div class="process--content-container">
             <p class="process--title">03</p>
@@ -200,8 +213,8 @@
               المرشحين بما يتناسب مع معايير البرنامج والتحقق من صحة المعلومات
               والمرفقات ومواءمتها مع المتطلبات التفصيلية للبرنامج
             </p>
-            <hr class="process--line-break" />
           </div>
+          <hr class="process--line-break" />
 
           <div class="process--content-container">
             <p class="process--title">04</p>
@@ -212,8 +225,8 @@
               Council) بهدف تحديد مستوى الكفاءة اللغوية للمرشحين وفقًا لأفضل
               الممارسات العالمية
             </p>
-            <hr class="process--line-break" />
           </div>
+          <hr class="process--line-break" />
 
           <div class="process--content-container">
             <p class="process--title">05</p>
@@ -222,8 +235,8 @@
               يتم تحديد القدرات المعرفية والمهارات الشخصية والتفكير المنطقي
               للمتقدمين من خلال اختبار تحديد القدرات
             </p>
-            <hr class="process--line-break" />
           </div>
+          <hr class="process--line-break" />
 
           <div class="process--content-container">
             <p class="process--title">06</p>
@@ -575,7 +588,7 @@
         />
       </div>
     </footer>
-    <script src="/soudah-development-landing/js/script.js" defer></script>
-    <!-- <script src="/js/script.js" defer></script> -->
+    <!-- <script src="/soudah-development-landing/js/script.js" defer></script> -->
+    <script src="js/script.js" defer></script>
   </body>
 </html>
