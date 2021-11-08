@@ -1,5 +1,5 @@
 # Soudah Development Landing Page Production Build
 
-![Hero Image](https://raw.githubusercontent.com/younes-alturkey/soudah-development-landing/main/assets/images/social-media-card.png)
+<a href="https://github.com/younes-alturkey/soudah-development-landing/raw/main/build.zip" target="_blank"><img src="https://raw.githubusercontent.com/younes-alturkey/soudah-development-landing/main/assets/images/social-media-card.png" alt="Hero Image"/></a>
 
 ### Download the `build.zip` file [here](https://github.com/younes-alturkey/soudah-development-landing/raw/main/build.zip).
