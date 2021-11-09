@@ -36,18 +36,13 @@
     />
     <meta property="og:locale" content="ar" />
     <meta property="og:type" content="website" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="/soudah-development-landing/favicon.ico"
-    />
-    <!-- <link rel="stylesheet" href="/soudah-development-landing/css/styles.css" /> -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>برنامج ابتعاث السودة للتطوير</title>
   </head>
   <body>
     <header>
-      <nav class="navigation">
+      <nav class="navigation dropdown">
         <img
           src="assets/images/logo/SDC_Logo_lock-up_right_mist_RGB.png"
           class="navigation--logo"
@@ -78,24 +73,22 @@
           <li class="navi-links" onclick="openModal();">سجل الآن</li>
         </ul>
 
-        <ul class="navi-container-mobile dropdown">
-          <div class="">
-            <a onclick="dropdownList();" class="dropbtn">المزيد</a>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#about-program">عن البرنامج</a>
-              <hr />
-              <a href="#about-program">التخصصات المتاحة</a>
-              <hr />
-              <a href="#process-section">مراحل وآلية التقديم</a>
-              <hr />
-              <a href="#vision">عن السودة للتطوير</a>
-              <hr />
-              <a href="#faq">الأسئلة الشائعة</a>
-              <hr />
-              <a onclick="openModal();">سجل الآن</a>
-            </div>
+        <div class="mobile-navi">
+          <a onclick="dropdownList();" class="dropbtn">المزيد</a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#about-program">عن البرنامج</a>
+            <hr />
+            <a href="#about-program">التخصصات المتاحة</a>
+            <hr />
+            <a href="#process-section">مراحل وآلية التقديم</a>
+            <hr />
+            <a href="#vision">عن السودة للتطوير</a>
+            <hr />
+            <a href="#faq">الأسئلة الشائعة</a>
+            <hr />
+            <a onclick="openModal();">سجل الآن</a>
           </div>
-        </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -587,7 +580,6 @@
         />
       </div>
     </footer>
-    <!-- <script src="/soudah-development-landing/js/script.js" defer></script> -->
     <script src="js/script.js" defer></script>
   </body>
 </html>
